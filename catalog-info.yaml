@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "backstage-react-app"
+  description: "this is description"
+  annotations:
+    github.com/project-slug: punitcse/backstage-react-app
+    backstage.io/techdocs-ref: url:https://github.com/punitcse/backstage-react-app
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "punitcse"
